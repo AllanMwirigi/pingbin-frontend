@@ -94,8 +94,7 @@ export class About extends Component {
                 </div>
             </div>
         </div>
-        <div className="row">
-            
+        <div className="row card-container" >
             <div className="column">
                 <div className="card">
                     <img src="assets/layout/images/Kiptanui.png" alt="Kiptanui" />
