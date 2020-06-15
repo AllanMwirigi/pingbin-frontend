@@ -7,6 +7,10 @@ export class BinsService {
     this.config = { headers: { authorization: authToken, userid } };
   }
 
+  createBin = (data) => {
+    return axios.post('/api/v1/bins/', data, this.config);
+  }
+
   getAllBins = () =>{
     return axios.get('/api/v1/bins/', this.config);
   }
@@ -21,6 +25,10 @@ export class BinsService {
 
   setBinEmptied = (binId, data) =>{
     return axios.post(`/api/v1/bins/${binId}/emptied`, data, this.config);
+  }
+
+  deleteBin = (binId) => {
+    return axios.delete(`/api/v1/bins/${binId}`, this.config);
   }
 
 }

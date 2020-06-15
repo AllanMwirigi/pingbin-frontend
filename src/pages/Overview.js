@@ -82,7 +82,7 @@ export class Overview extends Component {
                         <span className="title">Bins</span>
                         <span className="detail">Number of smart bins deployed</span>
                         {/* <span className="count visitors">{binsList.length}</span> */}
-                        <span className="count visitors">{2}</span>
+                        <span className="count visitors">{binsList.length}</span>
                     </div>
                 </div>
                 <div className="p-col-12 p-lg-4">
