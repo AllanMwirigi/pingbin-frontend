@@ -14,7 +14,7 @@ ReactDOM.render(
             <Route path='/' exact component={Main}/>
             <Route path='/contact' component={Main}/>
             <Route path='/about' component={Main}/>
-            <Route path='/dashboard' component={App}/>
+            <Route path='/dashboard' component={App} /> 
         </ScrollToTop>
     </HashRouter>,
     document.getElementById('root')
